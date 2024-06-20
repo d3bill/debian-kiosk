@@ -10,7 +10,7 @@ Login as root or with root permissions (sudo su)
 
 Download this installer, make it executable and run it
 
-wget https://github.com/d3bill/debian-kiosk/blob/main/debian-kiosk-installer.sh; chmod +x debian-kiosk-installer.sh; ./debian-kiosk-installer.sh
+wget https://raw.githubusercontent.com/d3bill/debian-kiosk/main/debian-kiosk-installer.sh; chmod +x debian-kiosk-installer.sh; ./debian-kiosk-installer.sh
 
 
 What will it do?
