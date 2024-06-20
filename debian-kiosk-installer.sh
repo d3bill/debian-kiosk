@@ -9,7 +9,7 @@ sudo apt install thorium-browser
 
 # get software
 apt install \
-	  xorg \
+       xorg \
     openbox \
     lightdm \
     locales \
