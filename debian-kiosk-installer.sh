@@ -1,12 +1,12 @@
 #!/bin/bash
 # Original script copied from https://github.com/josfaber/debian-kiosk-installer/blob/master/kiosk-installer.sh
 # add thorium browser repositories
-sudo rm -fv /etc/apt/sources.list.d/thorium.list 
-sudo wget --no-hsts -P /etc/apt/sources.list.d/ 
-http://dl.thorium.rocks/debian/dists/stable/thorium.list 
+sudo rm -fv /etc/apt/sources.list.d/thorium.list && \
+sudo wget --no-hsts -P /etc/apt/sources.list.d/ \
+http://dl.thorium.rocks/debian/dists/stable/thorium.list && \
 sudo apt update
-sudo apt install thorium-browser
 
+sudo apt install thorium-browser
 # get software
 apt install xorg openbox lightdm locales -y
 
