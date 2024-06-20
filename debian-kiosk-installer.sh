@@ -8,12 +8,7 @@ sudo apt update
 sudo apt install thorium-browser
 
 # get software
-apt install \
-       xorg \
-    openbox \
-    lightdm \
-    locales \
-    -y
+apt install xorg openbox lightdm locales -y
 
 # dir
 mkdir -p /home/kiosk/.config/openbox
